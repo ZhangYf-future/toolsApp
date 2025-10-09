@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalEditLayout">
+        <attr name="left_image_width" format="dimension" />
+        <attr name="left_image_height" format="dimension" />
+        <attr name="right_image_width" format="dimension" />
+        <attr name="right_image_height" format="dimension" />
+        <attr name="left_image_src" format="reference" />
+        <attr name="right_image_src" format="reference" />
+        <attr name="edit_text_size" format="dimension"/>
+        <attr name="edit_hint_text" format="reference|string" />
+        <attr name="edit_hint_text_color" format="reference|color" />
+        <attr name="edit_text_color" format="reference|color" />
+        <attr name="edit_text_single_line" format="boolean" />
+        <attr name="edit_text_margin_left_icon" format="dimension" />
+        <attr name="edit_text_margin_right_icon" format="dimension" />
+        <attr name="left_image_padding_start" format="dimension" />
+        <attr name="left_image_padding_end" format="dimension" />
+        <attr name="left_image_padding_top" format="dimension" />
+        <attr name="left_image_padding_bottom" format="dimension" />
+        <attr name="right_image_padding_start" format="dimension" />
+        <attr name="right_image_padding_end" format="dimension" />
+        <attr name="right_image_padding_top" format="dimension" />
+        <attr name="right_image_padding_bottom" format="dimension" />
+        <attr name="android:inputType" />
+    </declare-styleable>
+</resources>
