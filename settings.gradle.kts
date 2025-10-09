@@ -23,6 +23,3 @@ rootProject.name = "ToolsApp"
 include(":app")
 include(":toolslibrary")
 include(":viewlibrary")
-include(":viewlibrary")
-include(":viewlibrary")
-include(":viewlibrary")
