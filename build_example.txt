@@ -1,0 +1,5 @@
+//添加tag
+ git tag -a v1.0.0 -m "首次提交的空仓库"
+
+ //上传tag
+git push origin v1.0.0
