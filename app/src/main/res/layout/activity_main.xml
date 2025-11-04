@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -15,6 +17,15 @@
         app:right_image_height="30dp"
         app:right_image_src="@mipmap/ic_launcher"
         app:edit_hint_text="@string/app_name"
+        />
+
+
+    <Button
+        android:id="@+id/btn_date_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期选择弹窗"
+        android:layout_marginTop="10dp"
         />
 
 </LinearLayout>

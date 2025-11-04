@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/color_transparent</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnim</item>
+    </style>
+
+    <style name="DialogAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+
+    <style name="DialogYearTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:textColorPrimary">#FF4081</item> <!-- 主文本颜色 -->
+        <item name="android:textColor">#FF4081</item>         <!-- 普通文字颜色 -->
+    </style>
+
+</resources>
