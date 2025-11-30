@@ -2,6 +2,7 @@ package com.zyf.viewlibrary.dialog
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
@@ -134,11 +135,13 @@ class ChooseDateDialog(): DialogFragment() {
                 calendar.set(Calendar.YEAR, picker.year)
                 calendar.set(Calendar.MONTH, picker.month)
                 calendar.set(Calendar.DAY_OF_MONTH, picker.dayOfMonth)
-                calendar.set(Calendar.HOUR, 0)
+                calendar.set(Calendar.HOUR_OF_DAY, 0)
                 calendar.set(Calendar.MINUTE,0)
                 calendar.set(Calendar.SECOND,0)
                 calendar.set(Calendar.MILLISECOND, 0)
-                confirmCallback?.invoke(calendar.timeInMillis)
+                val millions = calendar.timeInMillis
+                Log.d("ChooseDateDialog", "millions: $millions")
+                confirmCallback?.invoke(millions)
             }
             dismiss()
         }
